@@ -319,7 +319,7 @@ which will control the responsiveness of the page*/
 @media screen and (max-width: 640px) {
 	nav {
 		clear: both;
-    	margin-right: 325px;
+    	margin-right: 302px;
     	margin-bottom: 18px;
 	}
 	#content {
@@ -335,7 +335,7 @@ which will control the responsiveness of the page*/
 		margin-left:0;
 	}
 	#topBox h1 {
-		margin-left: 170px;
+		margin-left: 190px;
     	font-size: 30px;
 	}
 	#mainText {
