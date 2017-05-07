@@ -209,13 +209,9 @@ h3{
 /*This Section will contain my media queries
 which will control the responsiveness of the page*/
 
-@media screen and (max-width: 980px) {
-	#mainText {
-		clear:both;
-		font-size: 18px;
-	}
+@media screen and (max-width: 892px) {
 	#content {
-		width:3500px;
+		width:450px;
 	}
 }
 @media screen and (max-width: 768px) {
@@ -242,6 +238,15 @@ which will control the responsiveness of the page*/
 	footer p {
 		margin-left: -100px;
 		margin-bottom: 50px;
+	}
+	#hang {
+		margin-left:115px;
+	}
+	#trivia {
+		margin-left:115px;
+	}
+	#rock {
+		margin-left:115px;
 	}
 }
 
@@ -278,8 +283,8 @@ which will control the responsiveness of the page*/
 		margin-bottom: 25px;
 	}
 	footer p {
-		margin-right: 75px;
-		white-space: nowrap;
+		margin-left: -175px;
+		margin-bottom: 50px;
 	}
 	#hang {
 		clear:both;
