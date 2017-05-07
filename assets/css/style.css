@@ -205,32 +205,75 @@ h3{
 #mainText {
 	margin:0 40px 10px 28px;
 }
-}
+
 /*This Section will contain my media queries
 which will control the responsiveness of the page*/
 
-@media screen and (max-width: 892px) {
+@media screen and (max-width: 980px) and (min-width: 769px) {
+	#backGround {
+		width:760px;
+	}
 	#content {
-		width:450px;
+		width:350px;
+		margin-right: 25px;
+	}
+		#hang {
+		clear:both;
+		float: left;
+		margin-left: 84px;
+		margin-bottom: 45px;
+	}
+	#rpg {
+		clear:both;
+		float: left;
+		margin-left: 84px;
+		margin-bottom: 45px;
+	}
+	#trivia {
+		clear:both;
+		float: left;
+		margin-left: 84px;
+		margin-bottom: 45px;
+	}
+	#rutgers {
+		clear:both;
+		float: left;
+		margin-left: 84px;
+		margin-bottom: 45px;
+	}
+	#rock {
+		clear:both;
+		float: left;
+		margin-left: 84px;
+		margin-bottom: 45px;
+	}
+	footer p {
+		margin-left: -80px;
+	}
+	#topBox {
+		width:250px;
+	}
+	h1 {
+		padding-left: 35px;
 	}
 }
 @media screen and (max-width: 768px) {
 	#sideBar {
 		clear:both;
-		margin-left: 35px;
+		margin-left: 55px;
     	margin-bottom: 25px;
     	margin-top: 0;
     	width: 620px;
 	}
 	#content {
-		margin-left: 35px;
+		margin-left: 55px;
     	width: 620px;
 	}
 	#centerIcon {
 		margin-left: 83px;
 	}
 	#topBox{
-		margin-left: 36px;
+		margin-left: 56px;
 	}
 	#backGround {
 		width: 768px;
@@ -240,28 +283,51 @@ which will control the responsiveness of the page*/
 		margin-bottom: 50px;
 	}
 	#hang {
-		margin-left:115px;
+		float: left;
+		margin-left: 88px;
+	    margin-right: 50px;
+	    margin-bottom: 45px;
+	    background-image:url('../images/place1.jpg');
+	}
+	#rpg {
+		float:left;
+		background-image:url('../images/place2.jpg');
+
 	}
 	#trivia {
-		margin-left:115px;
+		clear:both;
+		float:left;
+		margin-left: 88px;
+	    margin-right: 50px;
+	    margin-bottom: 45px;
+	    background-image:url('../images/place3.jpg');
+	}
+	#rutgers {
+		float:left;
+		background-image:url('../images/place4.jpg');
 	}
 	#rock {
-		margin-left:115px;
+		clear:both;
+		float:left;
+		margin-left: 88px;
+	    margin-right: 50px;
+	    margin-bottom: 45px;
+	    background-image:url('../images/place5.jpg');
 	}
 }
 
 @media screen and (max-width: 640px) {
 	nav {
 		clear: both;
-    	margin-right: 375px;
+    	margin-right: 325px;
     	margin-bottom: 18px;
 	}
 	#content {
-		margin-left:50px;
+		margin-lefT:110px;
 		width:500px;
 	}
 	#sideBar {
-		margin-left: 50px;
+		margin-left: 110px;
 		width:500px;
 	}
 	#topBox {
@@ -269,7 +335,7 @@ which will control the responsiveness of the page*/
 		margin-left:0;
 	}
 	#topBox h1 {
-		margin-left: 115px;
+		margin-left: 170px;
     	font-size: 30px;
 	}
 	#mainText {
@@ -283,7 +349,7 @@ which will control the responsiveness of the page*/
 		margin-bottom: 25px;
 	}
 	footer p {
-		margin-left: -175px;
+		margin-left: -100px;
 		margin-bottom: 50px;
 	}
 	#hang {
