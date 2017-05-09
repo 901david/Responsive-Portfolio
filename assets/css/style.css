@@ -205,6 +205,9 @@ h3{
 #mainText {
 	margin:0 40px 10px 28px;
 }
+.moveRight {
+	margin-left: 97px;
+}
 
 /*This Section will contain my media queries
 which will control the responsiveness of the page*/
@@ -266,6 +269,9 @@ which will control the responsiveness of the page*/
 		clear:left;
 		margin-left: 80px;
 	}
+	.moveRight {
+		margin-left:2px;
+	}
 }
 @media screen and (max-width: 768px) {
 	#sideBar {
@@ -283,7 +289,7 @@ which will control the responsiveness of the page*/
     	width: 620px;
 	}
 	#centerIcon {
-		margin-left: 83px;
+		margin-left: 108px;
 	}
 	#topBox{
 		margin-left: 56px;
@@ -327,20 +333,24 @@ which will control the responsiveness of the page*/
 	    margin-bottom: 45px;
 	    background-image:url('../images/place5.jpg');
 	}
+	.moveRight {
+		margin-left:121px ;
+	}
 }
 
 @media screen and (max-width: 640px) {
 	nav {
 		clear: both;
-    	margin-right: 205px;
+    	margin-right: 184px;
     	margin-bottom: 18px;
 	}
+
 	#content {
-		margin-left:155px;
+		margin-left:187px;
 		width:400px;
 	}
 	#sideBar {
-		margin-left: 155px;
+		margin-left: 187px;
 		width:400px;
 	}
 	#topBox {
@@ -348,7 +358,7 @@ which will control the responsiveness of the page*/
 		margin-left:0;
 	}
 	#topBox h1 {
-		margin-left: 190px;
+		margin-left: 216px;
     	font-size: 30px;
 	}
 	#mainText {
@@ -368,36 +378,42 @@ which will control the responsiveness of the page*/
 	#hang {
 		clear:both;
 		float: left;
-		margin-left: 165px;
+		margin-left: 109px;
 		margin-bottom: 45px;
 	}
 	#rpg {
 		clear:both;
 		float: left;
-		margin-left: 165px;
+		margin-left: 109px;
 		margin-bottom: 45px;
 	}
 	#trivia {
 		clear:both;
 		float: left;
-		margin-left: 165px;
+		margin-left: 109px;
 		margin-bottom: 45px;
 	}
 	#rutgers {
 		clear:both;
 		float: left;
-		margin-left: 165px;
+		margin-left: 109px;
 		margin-bottom: 45px;
 	}
 	#rock {
 		clear:both;
 		float: left;
-		margin-left: 165px;
+		margin-left: 109px;
 		margin-bottom: 45px;
 	}
 	#portLink {
 		border:none;
 		padding-left:100px;
 		padding-right: 100px;
+	}
+	.moveRight {
+		margin-left:4px;
+	}
+	#centerIcon {
+		margin-left: 61px;
 	}
 }
