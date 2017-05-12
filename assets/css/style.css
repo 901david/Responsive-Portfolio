@@ -296,6 +296,12 @@ nav {
 	text-align: center;
 	padding: 20px;
 }
+.portLink {
+	margin-left: 50px;
+	margin-right: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
 .topBox {
 	width:100%;
 	max-width: 640px;
