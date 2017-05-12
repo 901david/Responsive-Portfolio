@@ -308,7 +308,7 @@ nav {
 	padding:0;
 }
 .content {
-	margin-top: 190px;
+	margin-top: 25px;
 	margin-left: 22px;
 
 }
@@ -354,5 +354,8 @@ nav {
 		float: left;
 		margin-left: 161px;
 		margin-bottom: 45px;
+}
+.topBar {
+	position:relative;
 }
 }
