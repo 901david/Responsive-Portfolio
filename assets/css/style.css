@@ -197,208 +197,156 @@ footer {
 
 /*This Section will contain my media queries
 which will control the responsiveness of the page*/
-/*
-@media screen and (max-width: 980px) {
-	nav {
-		margin-right: 131px;
-	}
-	#content {
-		width:350px;
-		margin-right: 25px;
-	}
-		#hang {
-		clear:both;
-		float: left;
-		margin-left: 84px;
-		margin-bottom: 45px;
-	}
-	#rpg {
-		clear:both;
-		float: left;
-		margin-left: 84px;
-		margin-bottom: 45px;
-	}
-	#trivia {
-		clear:both;
-		float: left;
-		margin-left: 84px;
-		margin-bottom: 45px;
-	}
-	#rutgers {
-		clear:both;
-		float: left;
-		margin-left: 84px;
-		margin-bottom: 45px;
-	}
-	#rock {
-		clear:both;
-		float: left;
-		margin-left: 84px;
-		margin-bottom: 45px;
-	}
-	
-	#topBox {
-		width:250px;
-	}
-	h1 {
-		padding-left: 35px;
-	}
-	#mainText {
-		clear:both;
-	}
-	#mainImage {
-		clear:left;
-		margin-left: 80px;
-	}
-	.moveRight {
-		margin-left:2px;
-	}
-}
-@media screen and (max-width: 768px) {
-	#sideBar {
-		clear:both;
-		margin-left: 55px;
-    	margin-bottom: 25px;
-    	margin-top: 0;
-    	width:100%;
-    	max-width: 544px;
-	}
-	nav {
-		margin-right: 36px;
-	}
-	#content {
-		margin-left: 55px;
-    	width:100%;
-    	max-width: 544px;
-	}
-	#centerIcon {
-		margin-left: 108px;
-	}
-	#topBox{
-		margin-left: 56px;
-	}
-	#backGround {
-		width: 768px;
-	}
-	footer p {
-		margin-left: -100px;
-		margin-bottom: 50px;
-	}
-	#hang {
-		float: left;
-		margin-left: 53px;
-	    margin-right: 50px;
-	    margin-bottom: 45px;
-	    background-image:url('../images/place1.jpg');
-	}
-	#rpg {
-		float:left;
-		background-image:url('../images/place2.jpg');
 
-	}
-	#trivia {
-		clear:both;
-		float:left;
-		margin-left: 53px;
-	    margin-right: 50px;
-	    margin-bottom: 45px;
-	    background-image:url('../images/place3.jpg');
-	}
-	#rutgers {
-		float:left;
-		background-image:url('../images/place4.jpg');
-	}
-	#rock {
-		clear:both;
-		float:left;
-		margin-left: 53px;
-	    margin-right: 50px;
-	    margin-bottom: 45px;
-	    background-image:url('../images/place5.jpg');
-	}
-	.moveRight {
-		margin-left:121px ;
-	}
+@media screen and (max-width: 980px) and (min-width: 769px) {
+.screenRuler {
+	max-width: 750px;
 }
+.content {
+	max-width: 425px;
+}
+.mainText {
+	clear:both;
+}
+.mainImage {
+	width:350px;
+}
+/*Contact*/
+.moveRight {
+	margin-left: 47px;
+}
+#hang {
+		clear:both;
+		float: left;
+		margin-left: 84px;
+		margin-bottom: 45px;
+}
+#rpg {
+		clear:both;
+		float: left;
+		margin-left: 84px;
+		margin-bottom: 45px;
+}
+#trivia {
+		clear:both;
+		float: left;
+		margin-left: 84px;
+		margin-bottom: 45px;
+}
+#rutgers {
+		clear:both;
+		float: left;
+		margin-left: 84px;
+		margin-bottom: 45px;
+}
+#rock {
+		clear:both;
+		float: left;
+		margin-left: 84px;
+		margin-bottom: 45px;
+}
+}
+
+
+	
+	
+	
+@media screen and (max-width: 768px) {
+.screenRuler{
+	max-width: 625px;
+}
+.content {
+	max-width: 600px;
+}
+.mainText {
+	clear:none;
+}
+.sideBar{
+	clear:none;
+	float:left;
+	margin-top: 0;
+	max-width: 600px;
+	margin-bottom: 25px;
+}
+.moveRight {
+	margin-left: 131px;
+}
+#hang {
+	margin-left: 46px;
+	margin-right: 25px;
+}
+#trivia {
+	margin-left: 46px;
+	margin-right: 25px;
+}
+#rock {
+	margin-left: 46px;
+	margin-right: 25px;
+}	
+}
+
 
 @media screen and (max-width: 640px) {
-	nav {
-		clear: both;
-    	margin-right: 109px;
-    	margin-bottom: 18px;
-	}
+.screenRuler {
+	max-width: 640px;
+}
+nav {
+	clear:both;
+	float:none;
+	text-align: center;
+	padding: 20px;
+}
+.topBox {
+	width:100%;
+	max-width: 640px;
+	padding:0;
+}
+.content {
+	margin-top: 190px;
+	margin-left: 22px;
 
-	#content {
-		margin-left:130px;
-		width:100%;
-		max-width:400px;
-	}
-	#sideBar {
-		margin-left: 130px;
-		width:100%;
-		max-width:400px;
-	}
-	#topBox {
-		width:100%;
-		margin-left:0;
-	}
-	#topBox h1 {
-		margin-left: 163px;
-    	font-size: 30px;
-	}
-	#mainText {
-		clear:both;
-		font-size: 18px;
-	}
-	#mainImage {
-		width:75%;
-		height:75%;
-		margin-left: 54px;
-		margin-bottom: 25px;
-	}
-	footer p {
-		margin-left: -129px;
-		margin-bottom: 50px;
-	}
-	#hang {
+}
+.sideBar {
+	margin-left: 22px;
+}
+.mainText{
+	clear:both;
+}
+.mainImage {
+	width:425px;
+	margin-left: 50px;
+}
+.mainText {
+	padding-top:10px;
+}
+#hang {
 		clear:both;
 		float: left;
-		margin-left: 109px;
+		margin-left: 161px;
 		margin-bottom: 45px;
-	}
-	#rpg {
+}
+#rpg {
 		clear:both;
 		float: left;
-		margin-left: 109px;
+		margin-left: 161px;
 		margin-bottom: 45px;
-	}
-	#trivia {
+}
+#trivia {
 		clear:both;
 		float: left;
-		margin-left: 109px;
+		margin-left: 161px;
 		margin-bottom: 45px;
-	}
-	#rutgers {
+}
+#rutgers {
 		clear:both;
 		float: left;
-		margin-left: 109px;
+		margin-left: 161px;
 		margin-bottom: 45px;
-	}
-	#rock {
+}
+#rock {
 		clear:both;
 		float: left;
-		margin-left: 109px;
+		margin-left: 161px;
 		margin-bottom: 45px;
-	}
-	#portLink {
-		border:none;
-		padding-left:100px;
-		padding-right: 100px;
-	}
-	.moveRight {
-		margin-left:4px;
-	}
-	#centerIcon {
-		margin-left: 61px;
-	}
-}*/
+}
+}
