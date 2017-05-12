@@ -1,32 +1,34 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-<meta charset="UTF-8">
-<link rel="icon" type="image/jpg" href="assets/images/favicon.jpg">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<meta charset="UTF-8">
+	<link rel="icon" type="image/jpg" href="assets/images/favicon.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<title>David Hammond</title>
 </head>
 <body>
-	<div id="backGround">
-	<!--this div will contain the name and nav bar into its own group-->
-	<div id="topBar">
-		<!--this is where my name header will go-->
-		<div id="topBox">
-			<h1>David Hammond</h1>
+	<!-- This header will contain the top bar -->
+	<header class="topBar">
+		<!-- This limits the width appropriately -->
+		<div class="screenRuler">
+			<a href="index.html" class="topBox">David Hammond</a>
+			<nav>
+				<a href="index.html">About</a>
+				<a class="portLink" href="portfolio.html">Portfolio</a>
+				<a href="contact.html">Contact</a>
+			</nav>
 		</div>
-		<!--This will be my nav bar to control my links-->
-		<nav>
-		<a href="index.html">About</a>
-		<a id="portLink" href="portfolio.html">Portfolio</a>
-		<a href="contact.html">Contact</a>
-		</nav>
-	
-	<!--this div will contain the rest of the page-->
-	<div id="wrapper">
-		<!--This div contains the content portion-->
-		<div id="content">
+	</header>
+
+	<!-- This will contain the Main portion of the page -->
+	<!-- This limits the width appropriately -->
+	<div class="screenRuler">
+		<!-- This contain the main content -->
+		<div class="content">
 			<h2>Portfolio</h2>
+			<hr>
 			<div id="boxSet">
 				<div id="hang" class="box">
 					<div class="titleBox">
@@ -55,21 +57,23 @@
 				</div>
 			</div>
 		</div>
-		<!--This div contains the side bar content-->
-		<div id="sideBar">
+		<!-- This is the sidebar -->
+		<div  class="sideBar">
 			<h3>Connect with Me</h3>
-			<div id="centerIcon">
-				<a target="_blank" href="http://github.com/901david/"><img src="assets/images/gitlogo.png" alt="Github"></a>
-				<a target="_blank" href="http://stackoverflow.com/users/7826396/901david?tab=profile"><img src="assets/images/stackoverflow.png" alt="StackOverflow"></a>
-				<a target="_blank" href="https://www.linkedin.com/in/david-hammond-96b1b8137/"><img src="assets/images/linkedin.png" alt="LinkedIn"></a>
+			<hr>
+			<!--Created this to center the icons-->
+			<div class="centerIcon">
+				<a target="_blank" href="http://github.com/901david/"><img class="sideBarImage" src="assets/images/gitlogo.png" alt="Github"></a>
+				<a target="_blank" href="http://stackoverflow.com/users/7826396/901david?tab=profile"><img class="sideBarImage" src="assets/images/stackoverflow.png" alt="StackOverflow"></a>
+				<a target="_blank" href="https://www.linkedin.com/in/david-hammond-96b1b8137/"><img class="sideBarImage" src="assets/images/linkedin.png" alt="LinkedIn"></a>
 			</div>
 		</div>
-		<!--This is the footer-->
+		<!-- This will be the footer -->
 		<footer>
-			<p>&copy;Copyright 2017 David Hammond</p>
+			<!-- This limits the width appropriately -->
+			<div class="screenRuler">
+				<p>&copy;Copyright 2017 David Hammond</p>
+			</div>
 		</footer>
-		</div>
-		</div>
-	</div>
-</body>
-</html>
+	</body>
+	</html>
