@@ -122,8 +122,9 @@ footer {
 	background-color: #666;
 	border-top: 8px solid #4aaaa5;
 	color:#fff;
+	min-height: 85px;
 	text-align: center;
-	padding: 30px;
+	line-height: 83px;
 }
 .moveRight {
 	margin-left: 174px;
